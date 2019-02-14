@@ -1,0 +1,13 @@
+#!/bin/bash
+
+set -e
+
+echo "---> 拉取jar包"
+
+mkdir target
+push target
+
+pop
+
+# Fix source directory permissions
+fix-permissions ./
